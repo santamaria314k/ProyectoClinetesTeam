@@ -52,9 +52,9 @@ public class Main {
         
         
         Usuario empresa =new Usuario(nit,razonSocial,telefono,actividad);
-        EmpresaController.InsetarEmpresa(empresa);
+        empresaController.InsetarEmpresa(empresa);
         
-        usuarioController.Imprimir();
+        empresaController.Imprimir();
         
         x++;
         }
