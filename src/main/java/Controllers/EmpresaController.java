@@ -11,10 +11,6 @@ import Services.EmpresaService;
 public class EmpresaController {
     
     
-    
-    
-    
-    
      public EmpresaService empresaService;
     
     public EmpresaController(){
@@ -23,7 +19,7 @@ public class EmpresaController {
     
     
     public void InsetarEmpresa(Empresa empresaNueva){
-    boolean respuesta = empresaService.InsertarUsuario(empresaNueva);
+    boolean respuesta = empresaService.InsertarEmpresa(empresaNueva);
     
     if(respuesta){
     System.out.println("Ha sido Ingresada una nueva Empresa :)");

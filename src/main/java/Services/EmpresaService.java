@@ -9,9 +9,6 @@ public class EmpresaService {
     
     
     
-    
-    
-    
      public DataBase db ;
     
     public  EmpresaService(){
@@ -30,8 +27,6 @@ public class EmpresaService {
     }
     
     return respuesta;
-
-    
     }
 
     public void Imprimir(){
